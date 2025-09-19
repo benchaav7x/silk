@@ -1,0 +1,243 @@
+<!DOCTYPE html>
+<html lang="ar">
+<head>
+  <meta charset="UTF-8">
+  
+  <meta property="og:title" content="Silk Road">
+
+  
+  <meta property="og:description" content="Dark Marketplace">
+
+  
+  <meta property="og:image" content="blob:https://imgur.com/b3a2621c-b3a8-46cf-94bd-594f4a8aab0b">
+
+  
+  <meta property="og:url" content="https://example.com">
+  <title>Anonymous Marketplace</title>
+  <link rel="icon" type="image/png" href="silk-road.png">
+  <style>
+    body {
+      margin: 0;
+      font-family: Arial, sans-serif;
+      background: #fff;
+      direction: ltr;
+    }
+
+    
+    header {
+      background: #f5f5f5;
+      padding: 10px 20px;
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      border-bottom: 1px solid #ccc;
+    }
+
+    .logo-area {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .logo-area img {
+      height: 50px;
+    }
+
+    .header-links {
+      font-size: 14px;
+      color: #444;
+    }
+
+    .header-links span {
+      margin: 0 8px;
+      color: green;
+    }
+
+    .search-cart {
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+
+    .search-cart input {
+      padding: 5px;
+      border: 1px solid #aaa;
+      border-radius: 3px;
+    }
+
+    .cart {
+      font-size: 20px;
+      cursor: pointer;
+    }
+
+    
+    main {
+      display: flex;
+    }
+
+    aside {
+      width: 220px;
+      background: #f5f5f5;
+      border-right: 1px solid #ccc;
+      padding: 15px;
+      font-size: 14px;
+    }
+
+    aside h3 {
+      margin-top: 0;
+    }
+
+    aside ul {
+      list-style: none;
+      padding: 0;
+      margin: 0;
+    }
+
+    aside ul li {
+      padding: 4px 0;
+      color: #00703c;
+      cursor: pointer;
+    }
+
+    aside ul li:hover {
+      text-decoration: underline;
+    }
+
+    
+    section {
+      flex: 1;
+      padding: 20px;
+    }
+
+    .products {
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+    }
+
+    .product {
+      display: flex;
+      align-items: center;
+      border-bottom: 1px solid #ccc;
+      padding-bottom: 15px;
+    }
+
+    .product img {
+      width: 120px;
+      height: 90px;
+      object-fit: cover;
+      margin-right: 20px;
+      border: 1px solid #ddd;
+      border-radius: 3px;
+    }
+
+    .product-details {
+      flex: 1;
+    }
+
+    .product-details h4 {
+      margin: 0 0 5px;
+      color: #333;
+      font-size: 16px;
+    }
+
+    .vendor {
+      font-size: 13px;
+      color: #444;
+      margin-bottom: 5px;
+    }
+
+    .price {
+      font-weight: bold;
+      color: red;
+      font-size: 14px;
+    }
+
+    .add-cart {
+      color: green;
+      font-size: 14px;
+      margin-left: 15px;
+      cursor: pointer;
+    }
+  </style>
+</head>
+<body>
+  
+  <header>
+    <div class="logo-area">
+      
+      <img src="logo.png" alt="Logo">
+      <div>
+        <strong>Anonymous Marketplace</strong><br>
+        <small>safe & private</small>
+      </div>
+    </div>
+
+    <div class="header-links">
+      messages <span>0</span> | orders <span>0</span> | account <span>0.00</span>
+    </div>
+
+    <div class="search-cart">
+      <input type="text" placeholder="Search...">
+      <button>Go</button>
+      <div class="cart">🛒</div>
+    </div>
+  </header>
+
+  <main>
+    
+    <aside>
+      <h3>Categories</h3>
+      <ul>
+        <li>Random</li>
+        <li>Clothes</li>
+        <li>Electronics</li>
+        <li>Jewelry</li>
+        <li>Guns</li>
+        <li>Others</li>
+      </ul>
+    </aside>
+
+    
+    <section>
+      <div class="products">
+        
+        <div class="product">
+          <img src="https://i.pinimg.com/736x/34/b6/df/34b6dfb7cce3691f1de8efe85fd027c6.jpg" alt="Product">
+          <div class="product-details">
+            <h4>خدامة شاطرة</h4>
+            <div class="vendor">Vendor: thecrazyB0y</div>
+            <div class="price">₿ 0.05000000 
+              <span class="add-cart">add to cart</span>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="product">
+          <img src="https://pbs.twimg.com/profile_images/1907476204392964096/UhZlXTgY_400x400.jpg" alt="Product">
+          <div class="product-details">
+            <h4>عبد ممحون</h4>
+            <div class="vendor">Vendor: s1iiko</div>
+            <div class="price">₿ 0.12000000 
+              <span class="add-cart">add to cart</span>
+            </div>
+          </div>
+        </div>
+
+        
+        <div class="product">
+          <img src="https://i.pinimg.com/736x/53/1e/4f/531e4f6f0a4147a4b18c03a0b6e647a0.jpg" alt="Product">
+          <div class="product-details">
+            <h4>بنت حلوة</h4>
+            <div class="vendor">Vendor: luxurry</div>
+            <div class="price">₿ 99.07500000 
+              <span class="add-cart">add to cart</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
